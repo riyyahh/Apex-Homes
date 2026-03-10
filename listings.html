@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexHomes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="listing-header">
+    <nav class="listing-nav">
+
+<div class="hamburger">
+            <span class="bar  bar1"></span>
+            <span class="bar  bar2"></span>
+            <span class="bar  bar3"></span>
+        </div>
+
+
+        <ul class="nav-links ">
+            <li> <a href="home.html">Home</a></li>
+            <li> <a href="about us.html"  >About Us</a></li>
+            <li> <a href="home.html#services-top">Services</a></li>
+            <li> <a href="listings.html" class="active">Listings</a></li>
+            <li> <a href="home.html#reviews-top">Reviews</a></li>
+            <li> <a href="contact us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <h1>Available Properties</h1>
+  <p>Explore our latest listing to fin your ideal property.</p>
+</header>
+
+<section class="listing">
+ 
+
+  <div class="filters">
+    <input type="text" id="searchBox" placeholder=" Search Location">
+    <button onclick="search()">Search</button>
+  </div>
+
+  <div class="listing-grid">
+    <div class="listing-card">
+      <img src="home bg1.png" alt="Property">
+      <div class="listing-info">
+        <h3>₦45,000,000</h3>
+        <p>4 Bedroom Duplex</p>
+        <span>Lekki, Lagos</span>
+        
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  4-Bedroom located at Lekki,lagos mataima  hdsaOISW UHOIWQFJHOA OIHHSAUIOGHAS OIYHOWGHQVBWQUIOWQ OIIOYHIOUHWQFCBH IUHUIHWQQGHFWQOHB OCSQHFWHQWFIO JKHSAWGBIUHSEBGSD UEHWQGUIBWQUIOGFWIK
+</div>
+
+
+      </div>
+    </div>
+
+     <div class="listing-card">
+    <img src="buy.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦42,000,000</h3>
+      <p>4 Bedroom Duplex</p>
+      <span>Keffi, Nasarawa</span>
+      
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+    </div>
+  </div>
+
+  
+  <div class="listing-card">
+    <img src="land.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦15,000,000</h3>
+      <p>500sqm Residential Land</p>
+      <span>Gwagwalada, Abuja</span>
+      
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+    </div>
+  </div>
+
+ 
+  <div class="listing-card">
+    <img src="shop.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦28,000,000</h3>
+      <p>Shop Space</p>
+      <span>Shagamu, Ogun</span>
+      
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+
+    </div>
+  </div>
+
+  
+  <div class="listing-card">
+    <img src="buy.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦35,500,000</h3>
+      <p>3 Bedroom Bungalow</p>
+      <span>Abaji, Abuja</span>
+    
+
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+    </div>
+  </div>
+
+ 
+  <div class="listing-card">
+    <img src="land.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦20,000,000</h3>
+      <p>600sqm Commercial Land</p>
+      <span>Oshodi, Lagos</span>
+    
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+
+    </div>
+  </div>
+
+  
+  <div class="listing-card">
+    <img src="shop.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦18,500,000</h3>
+      <p>Retail Shop</p>
+      <span>Lokoja, Kogi</span>
+    
+
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+    </div>
+  </div>
+
+  
+  <div class="listing-card">
+    <img src="buy.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦48,000,000</h3>
+      <p>5 Bedroom Duplex</p>
+      <span>Ibadan, Oyo</span>
+     
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+
+    </div>
+  </div>
+
+  
+  <div class="listing-card">
+    <img src="land.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦12,500,000</h3>
+      <p>400sqm Residential Plot</p>
+      <span>Markudi, Benue</span>
+      
+
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+
+    </div>
+  </div>
+
+  
+  <div class="listing-card">
+    <img src="shop.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦25,000,000</h3>
+      <p>Commercial Shop</p>
+      <span>Okene, Kogi</span>
+    
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+
+    </div>
+  </div>
+
+  <div class="listing-card">
+    <img src="land.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦20,000,000</h3>
+      <p>600sqm Commercial Land</p>
+      <span>Oshodi, Lagos</span>
+    
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+
+    </div>
+  </div>
+
+  
+  <div class="listing-card">
+    <img src="shop.jpg" alt="Property">
+    <div class="listing-info">
+      <h3>₦18,500,000</h3>
+      <p>Retail Shop</p>
+      <span>Lokoja, Kogi</span>
+    
+
+<button onclick="toggleDetails(this)">View Details</button>
+
+<div class="hidden-details">
+  Property info here
+</div>
+
+
+    </div>
+
+    </div>
+
+
+    
+  </div>
+
+  <a href="listings.html" class="next-page"> < Next Page > </a> 
+    
+</section>
+
+<footer class="listing-footer">
+    
+<div>
+    <p>can't find what you are looking for?</p>
+    <p>talk to our agent today</p>
+</div>
+
+     <a href="contact us.html">Contact Us</a>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
