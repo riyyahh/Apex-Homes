@@ -1,287 +1,265 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ApexHomes</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <header class="listing-header">
-    <nav class="listing-nav">
-
-<div class="hamburger">
-            <span class="bar  bar1"></span>
-            <span class="bar  bar2"></span>
-            <span class="bar  bar3"></span>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="listing-header">
+      <nav class="listing-nav">
+        <div class="hamburger">
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
         </div>
 
-
-        <ul class="nav-links ">
-            <li> <a href="home.html">Home</a></li>
-            <li> <a href="about us.html"  >About Us</a></li>
-            <li> <a href="home.html#services-top">Services</a></li>
-            <li> <a href="listings.html" class="active">Listings</a></li>
-            <li> <a href="home.html#reviews-top">Reviews</a></li>
-            <li> <a href="contact us.html">Contact Us</a></li>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about us.html">About Us</a></li>
+          <li><a href="home.html#services-top">Services</a></li>
+          <li><a href="listings.html" class="active">Listings</a></li>
+          <li><a href="home.html#reviews-top">Reviews</a></li>
+          <li><a href="contact us.html">Contact Us</a></li>
         </ul>
-    </nav>
-    <h1>Available Properties</h1>
-  <p>Explore our latest listing to fin your ideal property.</p>
-</header>
+      </nav>
+      <h1>Available Properties</h1>
+      <p>Explore our latest listing to find your ideal property.</p>
+    </header>
 
-<section class="listing">
- 
-
-  <div class="filters">
-    <input type="text" id="searchBox" placeholder=" Search Location">
-    <button onclick="search()">Search</button>
-  </div>
-
-  <div class="listing-grid">
-    <div class="listing-card">
-      <img src="home bg1.png" alt="Property">
-      <div class="listing-info">
-        <h3>₦45,000,000</h3>
-        <p>4 Bedroom Duplex</p>
-        <span>Lekki, Lagos</span>
-        
-<button onclick="toggleDetails(this)">View Details</button>
-
-<div class="hidden-details">
-  4-Bedroom located at Lekki,lagos mataima  hdsaOISW UHOIWQFJHOA OIHHSAUIOGHAS OIYHOWGHQVBWQUIOWQ OIIOYHIOUHWQFCBH IUHUIHWQQGHFWQOHB OCSQHFWHQWFIO JKHSAWGBIUHSEBGSD UEHWQGUIBWQUIOGFWIK
-</div>
-
-
+    <section class="listing">
+      <div class="filters">
+        <input type="text" id="searchBox" placeholder="Search Location" />
+        <button onclick="search()">Search</button>
       </div>
-    </div>
 
-     <div class="listing-card">
-    <img src="buy.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦42,000,000</h3>
-      <p>4 Bedroom Duplex</p>
-      <span>Keffi, Nasarawa</span>
-      
-<button onclick="toggleDetails(this)">View Details</button>
+      <div class="listing-grid">
+        <div class="listing-card">
+          <img src="home bg1.png" alt="Property" />
+          <div class="listing-info">
+            <h3>₦45,000,000</h3>
+            <p>4 Bedroom Duplex</p>
+            <span>Lekki, Lagos</span>
 
-<div class="hidden-details">
-  Property info here
-</div>
+            <button onclick="toggleDetails(this)">View Details</button>
 
+            <div class="hidden-details">
+              Spacious 4-bedroom fully detached duplex located in a serene and
+              secured estate in Lekki. Features include all rooms ensuite,
+              modern kitchen with fitted cabinets, spacious living area,
+              balcony, ample parking space, and 24/7 security. Close to schools,
+              malls, and major road networks. Ideal for family living or
+              investment.
+            </div>
+          </div>
+        </div>
 
-    </div>
-  </div>
+        <div class="listing-card">
+          <img src="buy.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦42,000,000</h3>
+            <p>4 Bedroom Duplex</p>
+            <span>Keffi, Nasarawa</span>
 
-  
-  <div class="listing-card">
-    <img src="land.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦15,000,000</h3>
-      <p>500sqm Residential Land</p>
-      <span>Gwagwalada, Abuja</span>
-      
-<button onclick="toggleDetails(this)">View Details</button>
+            <button onclick="toggleDetails(this)">View Details</button>
 
-<div class="hidden-details">
-  Property info here
-</div>
+            <div class="hidden-details">
+              Newly built 4-bedroom duplex situated in a developing and peaceful
+              neighborhood in Keffi. Comes with fitted kitchen, POP ceiling,
+              tiled floors, water supply, and fenced compound. Perfect for
+              families seeking comfort outside the busy city environment.
+            </div>
+          </div>
+        </div>
 
+        <div class="listing-card">
+          <img src="land.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦15,000,000</h3>
+            <p>500sqm Residential Land</p>
+            <span>Gwagwalada, Abuja</span>
 
-    </div>
-  </div>
+            <button onclick="toggleDetails(this)">View Details</button>
 
- 
-  <div class="listing-card">
-    <img src="shop.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦28,000,000</h3>
-      <p>Shop Space</p>
-      <span>Shagamu, Ogun</span>
-      
-<button onclick="toggleDetails(this)">View Details</button>
+            <div class="hidden-details">
+              500sqm dry and level residential plot in a fast-growing area of
+              Gwagwalada. Suitable for duplex or bungalow development. Good road
+              access, secure environment, and verified title documents
+              available. Excellent investment opportunity.
+            </div>
+          </div>
+        </div>
 
-<div class="hidden-details">
-  Property info here
-</div>
+        <div class="listing-card">
+          <img src="shop.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦28,000,000</h3>
+            <p>Shop Space</p>
+            <span>Shagamu, Ogun</span>
 
+            <button onclick="toggleDetails(this)">View Details</button>
 
+            <div class="hidden-details">
+              Commercial shop space located in a busy business district in
+              Shagamu. High customer traffic area, suitable for retail or office
+              use. Comes with tiled flooring, security doors, and accessible
+              parking space.
+            </div>
+          </div>
+        </div>
 
-    </div>
-  </div>
+        <div class="listing-card">
+          <img src="buy.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦35,500,000</h3>
+            <p>3 Bedroom Bungalow</p>
+            <span>Abaji, Abuja</span>
 
-  
-  <div class="listing-card">
-    <img src="buy.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦35,500,000</h3>
-      <p>3 Bedroom Bungalow</p>
-      <span>Abaji, Abuja</span>
-    
+            <button onclick="toggleDetails(this)">View Details</button>
 
-<button onclick="toggleDetails(this)">View Details</button>
+            <div class="hidden-details">
+              Well-finished 3-bedroom bungalow in a quiet residential area in
+              Abaji. Features include ensuite bedrooms, fitted kitchen, spacious
+              compound, borehole water supply, and secure fencing. Ideal for
+              small families or retirees.
+            </div>
+          </div>
+        </div>
 
-<div class="hidden-details">
-  Property info here
-</div>
+        <div class="listing-card">
+          <img src="land.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦20,000,000</h3>
+            <p>600sqm Commercial Land</p>
+            <span>Oshodi, Lagos</span>
 
+            <button onclick="toggleDetails(this)">View Details</button>
 
-    </div>
-  </div>
+            <div class="hidden-details">
+              Prime 600sqm commercial land located in a high-traffic business
+              area in Oshodi. Suitable for plaza, office complex, or warehouse
+              development. Good road network and verified land documentation.
+            </div>
+          </div>
+        </div>
 
- 
-  <div class="listing-card">
-    <img src="land.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦20,000,000</h3>
-      <p>600sqm Commercial Land</p>
-      <span>Oshodi, Lagos</span>
-    
-<button onclick="toggleDetails(this)">View Details</button>
+        <div class="listing-card">
+          <img src="shop.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦18,500,000</h3>
+            <p>Retail Shop</p>
+            <span>Lokoja, Kogi</span>
 
-<div class="hidden-details">
-  Property info here
-</div>
+            <button onclick="toggleDetails(this)">View Details</button>
 
+            <div class="hidden-details">
+              Functional retail shop in a commercial hub in Lokoja.
+              Well-ventilated space with tiled flooring and steady customer
+              flow. Ideal for supermarket, pharmacy, or boutique business.
+            </div>
+          </div>
+        </div>
 
+        <div class="listing-card">
+          <img src="buy.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦48,000,000</h3>
+            <p>5 Bedroom Duplex</p>
+            <span>Ibadan, Oyo</span>
 
-    </div>
-  </div>
+            <button onclick="toggleDetails(this)">View Details</button>
 
-  
-  <div class="listing-card">
-    <img src="shop.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦18,500,000</h3>
-      <p>Retail Shop</p>
-      <span>Lokoja, Kogi</span>
-    
+            <div class="hidden-details">
+              Luxury 5-bedroom duplex in a secure estate in Ibadan. Includes
+              spacious master bedroom, fitted kitchen, modern finishing, parking
+              space for multiple cars, and good drainage system. Great for large
+              families or rental investment.
+            </div>
+          </div>
+        </div>
 
-<button onclick="toggleDetails(this)">View Details</button>
+        <div class="listing-card">
+          <img src="land.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦12,500,000</h3>
+            <p>400sqm Residential Plot</p>
+            <span>Markudi, Benue</span>
 
-<div class="hidden-details">
-  Property info here
-</div>
+            <button onclick="toggleDetails(this)">View Details</button>
 
+            <div class="hidden-details">
+              400sqm residential land in a calm and developing neighborhood in
+              Makurdi. Dry land with good access road and available utilities.
+              Suitable for bungalow or mini duplex development.
+            </div>
+          </div>
+        </div>
 
-    </div>
-  </div>
+        <div class="listing-card">
+          <img src="shop.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦25,000,000</h3>
+            <p>Commercial Shop</p>
+            <span>Okene, Kogi</span>
 
-  
-  <div class="listing-card">
-    <img src="buy.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦48,000,000</h3>
-      <p>5 Bedroom Duplex</p>
-      <span>Ibadan, Oyo</span>
-     
-<button onclick="toggleDetails(this)">View Details</button>
+            <button onclick="toggleDetails(this)">View Details</button>
 
-<div class="hidden-details">
-  Property info here
-</div>
+            <div class="hidden-details">
+              Strategically located commercial shop in Okene’s main market area.
+              High visibility location with strong business potential. Suitable
+              for wholesale or retail operations.
+            </div>
+          </div>
+        </div>
 
+        <div class="listing-card">
+          <img src="land.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦20,000,000</h3>
+            <p>600sqm Commercial Land</p>
+            <span>Oshodi, Lagos</span>
 
+            <button onclick="toggleDetails(this)">View Details</button>
 
-    </div>
-  </div>
+            <div class="hidden-details">
+              Prime 600sqm commercial land located in a high-traffic business
+              area in Oshodi. Suitable for plaza, office complex, or warehouse
+              development. Good road network and verified land documentation.
+            </div>
+          </div>
+        </div>
 
-  
-  <div class="listing-card">
-    <img src="land.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦12,500,000</h3>
-      <p>400sqm Residential Plot</p>
-      <span>Markudi, Benue</span>
-      
+        <div class="listing-card">
+          <img src="shop.jpg" alt="Property" />
+          <div class="listing-info">
+            <h3>₦18,500,000</h3>
+            <p>Retail Shop</p>
+            <span>Lokoja, Kogi</span>
 
-<button onclick="toggleDetails(this)">View Details</button>
+            <button onclick="toggleDetails(this)">View Details</button>
 
-<div class="hidden-details">
-  Property info here
-</div>
+            <div class="hidden-details">
+              Functional retail shop in a commercial hub in Lokoja.
+              Well-ventilated space with tiled flooring and steady customer
+              flow. Ideal for supermarket, pharmacy, or boutique business.
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <a href="listings.html" class="next-page"> < Next Page > </a>
+    </section>
 
+    <footer class="listing-footer">
+      <div>
+        <p>can't find what you are looking for?</p>
+        <p>talk to our agent today</p>
+      </div>
 
-    </div>
-  </div>
+      <a href="contact us.html">Contact Us</a>
+    </footer>
 
-  
-  <div class="listing-card">
-    <img src="shop.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦25,000,000</h3>
-      <p>Commercial Shop</p>
-      <span>Okene, Kogi</span>
-    
-<button onclick="toggleDetails(this)">View Details</button>
-
-<div class="hidden-details">
-  Property info here
-</div>
-
-
-
-    </div>
-  </div>
-
-  <div class="listing-card">
-    <img src="land.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦20,000,000</h3>
-      <p>600sqm Commercial Land</p>
-      <span>Oshodi, Lagos</span>
-    
-<button onclick="toggleDetails(this)">View Details</button>
-
-<div class="hidden-details">
-  Property info here
-</div>
-
-
-
-    </div>
-  </div>
-
-  
-  <div class="listing-card">
-    <img src="shop.jpg" alt="Property">
-    <div class="listing-info">
-      <h3>₦18,500,000</h3>
-      <p>Retail Shop</p>
-      <span>Lokoja, Kogi</span>
-    
-
-<button onclick="toggleDetails(this)">View Details</button>
-
-<div class="hidden-details">
-  Property info here
-</div>
-
-
-    </div>
-
-    </div>
-
-
-    
-  </div>
-
-  <a href="listings.html" class="next-page"> < Next Page > </a> 
-    
-</section>
-
-<footer class="listing-footer">
-    
-<div>
-    <p>can't find what you are looking for?</p>
-    <p>talk to our agent today</p>
-</div>
-
-     <a href="contact us.html">Contact Us</a>
-</footer>
-
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
