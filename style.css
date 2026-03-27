@@ -726,6 +726,11 @@ nav li a:hover {
   .hero-tagline {
     font-size: 22px;
   }
+  .hero-actions {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 
   .about-wrapper {
     flex-direction: column;
