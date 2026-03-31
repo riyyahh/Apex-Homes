@@ -856,6 +856,10 @@ nav li a:hover {
     margin: auto;
   }
 
+  .about-section a {
+    margin: auto;
+  }
+
   .services-section h1,
   .listings-section h1 {
     margin: 100px 0 30px;
